@@ -24,7 +24,7 @@ async function handleScheduled() {
   })
 
   const data = await octokit.request('POST /repos/{owner}/{repo}/dispatches', {
-    owner: 'mzakiyuddin',
+    owner: 'ferrykepolow',
     repo: 'benchmark-cron',
     event_type: 'cloudflare-worker',
   })
